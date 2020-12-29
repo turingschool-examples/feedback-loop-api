@@ -34,7 +34,7 @@ app.post('/api/v1/login', (req, res) => {
 
   const { id, image, name } = foundUser;
 
-  res.status(200).json({ id, image, name });
+  res.status(201).json({ id, image, name });
 })
 
 app.get('/api/v1/users/:id', (req, res) => {
