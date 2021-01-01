@@ -1,4 +1,4 @@
-# IdeaBox API
+# Feedback Loop API
 
 To be used with the Cypress lesson.
 
