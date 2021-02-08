@@ -20,7 +20,7 @@ const feedback = [
     receiverId: 11
   },
   {
-    feedback: 'I really liked your choice of color palette for this project!  It screams "Necco Wafer Chick".  However, maybe take it easy on the box shadow next time.',
+    feedback: 'I really liked your choice of color palette for this project!  It screams "Necco Wafer Chic".  However, maybe take it easy on the box shadow next time.',
     senderId: 10,
     receiverId: 6
   },
