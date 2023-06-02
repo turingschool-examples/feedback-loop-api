@@ -14,6 +14,8 @@ Run `npm start` to start the server.
 
 ## Endpoints
 
+***
+
 ### GET a user by its id
 
 URL: `http://localhost:3001/api/v1/users/:id`
@@ -36,6 +38,8 @@ Sample response (404):
 ```js
   { message: 'User with the id of 2 does not exist.' }
 ```
+
+***
 
 ### GET all teammates for a user
 
@@ -72,6 +76,8 @@ Sample response (404):
   { message: 'User with the id of 2 does not exist' }
 ```
 
+***
+
 ### GET all feedback for a user
 
 URL: `http://localhost:3001/api/v1/users/:id/feedback`
@@ -102,6 +108,8 @@ Sample response (404):
 ```js
   { message: 'User with the id of 2 does not exist' }
 ```
+
+***
 
 ### POST login a user
 
@@ -149,6 +157,8 @@ Sample BAD response (422):
 ```js
   { message: 'You are missing a required parameter of password' }
 ```
+
+***
 
 ### POST Send feedback
 
